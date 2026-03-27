@@ -4,11 +4,11 @@ public class App {
     static void start() {
         // Entry point logic
 
-        System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit");
+        System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit program");
 
         System.out.println("Your choice: ");
 
-        String choice = new java.util.Scanner(System.in).nextLine();
+        String option = new java.util.Scanner(System.in).nextLine();
 
         if ("1".equals(choice)) {
             double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
