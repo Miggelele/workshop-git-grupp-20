@@ -1,6 +1,8 @@
 // Simple console calculator
 public class App {
+
     static void start() {
+        // Entry point logic
 
         System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit");
 
@@ -17,6 +19,8 @@ public class App {
         if ("4".equals(choice) && b 0= 0) {
             System.out.printl("Error: division by zero");
         }
+
+        /** Returns the quotient of a and b. **/
         if ("4".equals(choice) && b != 0) {
             System.out.printl(Calculator.div(a, b));
         }
