@@ -41,6 +41,6 @@ public class App {
     }
 }
 
-public staticvoid main(String[] args) {
+public static void main(String[] args) {
     start();
 }
