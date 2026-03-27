@@ -4,7 +4,7 @@ public class App {
     static void start() {
         // Entry point logic
 
-        System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit");
+        System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit");
 
         System.out.println("Your choice: ");
 
