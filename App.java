@@ -8,7 +8,7 @@ public class App {
 
         System.out.println("Your choice: ");
 
-        String option = new java.util.Scanner(System.in).nextLine();
+        String option = new java.util.Scanner(System.in).nextLine().trim();
 
         if ("1".equals(choice)) {
             double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
