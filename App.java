@@ -12,5 +12,8 @@ public class App {
             double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
             System.out.println(Calculator.add(a,b));
         }
+        if ("2".equals(choice)) {
+            System.out.println(Calculator.sub(a,b));
+        }
     }
 }
