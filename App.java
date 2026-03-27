@@ -9,10 +9,13 @@ public class App {
         System.out.println("Your choice: ");
 
         String option = new java.util.Scanner(System.in).nextLine();
+        
+        System.out.print("a: ");
+        double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+        System.out.print("b: ");
+        double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
 
-        if ("1".equals(option)) {
-            double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
-            double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+        if ("1".equals(choice)) {
             System.out.println(Calculator.add(a, b));
         }
         if ("4".equals(choice) && b == 0) {
