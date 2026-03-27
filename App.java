@@ -24,7 +24,7 @@ public class App {
             System.out.printl(Calculator.div(a, b));
         }
 
-        if ("2".equals(choice)) {
+        if ("2".equals(option)) {
             System.out.println(Calculator.sub(a, b));
         }
 
