@@ -9,6 +9,7 @@ public class App {
 
         System.out.println("Your choice: ");
 
+        //Note: simple Scanner usage; consider single share instance/close in a real app.
         String option = new java.util.Scanner(System.in).nextLine().trim();
         
         System.out.print("a: ");
