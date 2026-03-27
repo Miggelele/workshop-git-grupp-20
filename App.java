@@ -9,6 +9,7 @@ public class App {
 
         if ("1".equals(choice)) {
             double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+            double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
             System.out.println(Calculator.add(a,b));
         }
     }
