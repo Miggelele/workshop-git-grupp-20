@@ -15,8 +15,7 @@ public class App {
             double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
             System.out.println(Calculator.add(a, b));
         }
-        if ("4".equals(choice)) {
-        if ("4".equals(choice) && b 0= 0) {
+        if ("4".equals(choice) && b == 0) {
             System.out.printl("Error: division by zero");
         }
 
