@@ -16,8 +16,8 @@ public class App {
         System.out.print("b: ");
         double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
 
-        if ("1".equals(choice)) {
-            System.out.println(Calculator.add(a, b));
+        if ("1".equals(option)) {
+            System.out.println(String.format("%.2f", Calculator.add(a, b));
         }
         if ("4".equals(choice) && b == 0) {
             System.out.printl(ERR_DIV_ZERO);
