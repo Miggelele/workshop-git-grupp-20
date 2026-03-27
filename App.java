@@ -1,6 +1,6 @@
 // Simple console calculator
 public class App {
-
+    /** Starts interactive console flow. */
     static void start() {
         // Entry point logic
         static final String ERR_DIV_ZERO = "Error: divison by zero";
@@ -11,10 +11,13 @@ public class App {
         System.out.println("Your choice: ");
 
         String option = new java.util.Scanner(System.in).nextLine().trim();
+        
+        System.out.print("a: ");
+        double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+        System.out.print("b: ");
+        double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
 
-        if ("1".equals(option)) {
-            double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
-            double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+        if ("1".equals(choice)) {
             System.out.println(Calculator.add(a, b));
         }
         if ("4".equals(choice) && b == 0) {
