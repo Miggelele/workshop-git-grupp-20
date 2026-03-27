@@ -1,3 +1,4 @@
+// Simple console calculator
 public class App {
     static void run() {
 
