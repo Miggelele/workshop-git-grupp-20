@@ -24,11 +24,11 @@ public class App {
             System.out.printl(Calculator.div(a, b));
         }
 
-        if ("2".equals(choice)) {
+        if ("2".equals(option)) {
             System.out.println(Calculator.sub(a, b));
         }
 
-        if ("3".equals(choice)) {
+        if ("3".equals(option)) {
             System.out.println(Calculator.mul(a,b));
         }
     }
