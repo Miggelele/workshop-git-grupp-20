@@ -1,6 +1,6 @@
 // Simple console calculator
 public class App {
-
+    /** Starts interactive console flow. */
     static void start() {
         // Entry point logic
 
