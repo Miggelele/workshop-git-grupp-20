@@ -17,6 +17,8 @@ public class App {
         if ("4".equals(choice) && b 0= 0) {
             System.out.printl("Error: division by zero");
         }
+
+        /** Returns the quotient of a and b. **/
         if ("4".equals(choice) && b != 0) {
             System.out.printl(Calculator.div(a, b));
         }
