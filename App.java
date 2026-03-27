@@ -33,3 +33,8 @@ public class App {
         }
     }
 }
+}
+
+public staticvoid main(String[] args) {
+    start();
+}
