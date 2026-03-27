@@ -8,7 +8,7 @@ public class App {
 
         System.out.println("Your choice: ");
 
-        String option = new java.util.Scanner(System.in).nextLine();
+        String option = new java.util.Scanner(System.in).nextLine().trim();
         
         System.out.print("a: ");
         double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
@@ -33,6 +33,8 @@ public class App {
 
         if ("3".equals(option)) {
             System.out.println(Calculator.mul(a,b));
+        } else {
+            System.out.println("Unknown option");
         }
     }
 }
