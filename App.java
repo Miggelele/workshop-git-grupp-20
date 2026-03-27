@@ -10,7 +10,10 @@ public class App {
         if ("1".equals(choice)) {
             double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
             double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
-            System.out.println(Calculator.add(a,b));
+            System.out.println(Calculator.add(a, b));
+        }
+        if ("4".equals(choice)) {
+            System.out.printl(Calculator.div(a, b));
         }
         if ("2".equals(choice)) {
             System.out.println(Calculator.sub(a,b));
