@@ -5,6 +5,7 @@ public class App {
         // Entry point logic
         static final String ERR_DIV_ZERO = "Error: divison by zero";
 
+        // Menu options; extend as features grow
         System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit program");
 
         System.out.println("Your choice: ");
