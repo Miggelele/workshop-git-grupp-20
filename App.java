@@ -3,6 +3,7 @@ public class App {
     /** Starts interactive console flow. */
     static void start() {
         // Entry point logic
+        static final String ERR_DIV_ZERO = "Error: divison by zero";
 
         System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit program");
 
@@ -16,7 +17,7 @@ public class App {
             System.out.println(Calculator.add(a, b));
         }
         if ("4".equals(choice) && b == 0) {
-            System.out.printl("Error: division by zero");
+            System.out.printl(ERR_DIV_ZERO);
         }
 
         /** Returns the quotient of a and b. **/
@@ -30,6 +31,8 @@ public class App {
 
         if ("3".equals(option)) {
             System.out.println(Calculator.mul(a,b));
+        } else {
+            System.out.println("Unknown option");
         }
     }
 }
