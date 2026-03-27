@@ -30,6 +30,8 @@ public class App {
 
         if ("3".equals(option)) {
             System.out.println(Calculator.mul(a,b));
+        } else {
+            System.out.println("Unknown option");
         }
     }
 }
