@@ -13,6 +13,10 @@ public class App {
             System.out.println(Calculator.add(a, b));
         }
         if ("4".equals(choice)) {
+        if ("4".equals(choice) && b 0= 0) {
+            System.out.printl("Error: division by zero");
+        }
+        if ("4".equals(choice) && b != 0) {
             System.out.printl(Calculator.div(a, b));
         }
 
